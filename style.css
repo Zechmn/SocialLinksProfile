@@ -82,7 +82,7 @@ body {
   font-weight: 700;
   padding: 12px 24px;
   border-radius: 8px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .social-link:hover,
@@ -99,8 +99,9 @@ body {
 
 .social-link.github:hover,
 .social-link.github:focus {
-  background-color: hsl(75, 94%, 57%);
+  background-color: hsl(75, 94%, 67%);
   color: hsl(0, 0%, 8%);
+  transform: translateY(-2px);
 }
 
 /* Responsive design for desktop */
